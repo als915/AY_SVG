@@ -2,6 +2,50 @@
 <!-- Generator: Adobe Illustrator 23.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+
+	<defs> 
+		<style> 
+			path
+			{
+				animation: pig 11s linear; 
+			}
+			circle
+			{
+				animation: pig 11s linear; 
+			}
+			ellipse
+			{
+				animation: pig 11s linear;
+			}
+
+			@keyframes pig
+			{
+				0%{ transform: scale(1.0);
+					stroke: cyan;
+					fill: cyan;
+					stroke-dasharray: 5 10;
+					stroke-dashoffset: 1000;}
+
+				25%{ transform: scale(1.0);
+					 stroke: red;
+					 fill: red;}
+
+				50%{ transform: scale(1.0);
+					 stroke: green;
+					 fill: green;}
+
+				75%{ transform: scale(.5);
+					 stroke-dashoffset: 0;
+					 stroke: orange;
+					 fill: orange;}
+
+				100%{  transform: scale(1.0);
+					   stroke-dasharray: 0;
+					   stroke:purple;
+					   fill: purple; }
+			}
+		</style>
+	</defs>
 <g>
 	<g>
 		<path d="M392.5,93.9H195.1c0,0,0,0,0,0c-49.2,0-94.6,28.7-115.6,73.1l-29.9,62.9C42.1,245.8,26,256,8.5,256
